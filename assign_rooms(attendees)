@@ -1,0 +1,15 @@
+
+[1mFrom:[0m /home/jayskate/Development/code/badges-and-schedules/conference_badges.rb:31 Object#printer:
+
+    [1;34m25[0m: [32mdef[0m [1;34mprinter[0m(attendees)
+    [1;34m26[0m:    badges = batch_badge_creator(attendees)
+    [1;34m27[0m:    badges.each [32mdo[0m |badge|
+    [1;34m28[0m:    puts badge
+    [1;34m29[0m:    [32mend[0m
+    [1;34m30[0m:    room_assignments = assign_rooms(attendees)
+ => [1;34m31[0m:    binding.pry
+    [1;34m32[0m:    room_assignments.each [32mdo[0m |assign|
+    [1;34m33[0m:     binding.pry
+    [1;34m34[0m:    [32mend[0m
+    [1;34m35[0m: [32mend[0m
+
